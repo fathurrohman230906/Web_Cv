@@ -521,7 +521,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
   top: 0;
   left: 0;
   right: 0;
-  font-size: 250px;
+  font-size: 130px;
   color: gray;
   font-weight: 700;
 }
@@ -559,6 +559,15 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
+}
+
+@media screen and (max-width: 476px) {
+  .services-img,
+  .work-img,
+  .gallery {
+    height: 20px;
+    width: 200px;
+  }
 }
 
 .progress-head {
